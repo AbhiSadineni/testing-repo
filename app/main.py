@@ -11,3 +11,5 @@ app = FastAPI(
 )
 
 app.include_router(health_router, prefix=settings.api_prefix)
+
+
