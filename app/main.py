@@ -9,7 +9,7 @@ app = FastAPI(
     redoc_url=f"{settings.api_prefix}/redoc",
     openapi_url=f"{settings.api_prefix}/openapi.json",
 )
-
+# this is a test
 app.include_router(health_router, prefix=settings.api_prefix)
 
 
